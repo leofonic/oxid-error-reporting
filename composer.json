@@ -1,0 +1,35 @@
+{
+    "name":        "zunderweb/oxid-error-reporting",
+    "description": "OXID eShop: Set error reporting level in backend",
+    "type":        "oxideshop-module",
+    "version":        "0.0.1",
+    "keywords":    [
+        "oxid",
+        "modules",
+        "eShop"
+    ],
+    "homepage":    "https://www.zunderweb.de",
+    "license":     [
+        "GPL-3.0"
+    ],
+    "authors":     [
+        {
+            "name":  "zunderweb",
+            "email": "info@zunderweb.de"
+        }
+    ],
+    "extra":       {
+        "oxideshop": {
+            "target-directory": "zunderweb/error_reporting"
+        }
+    },
+    "require":     {
+    },
+    "autoload":    {
+        "psr-4": {
+            "zunderweb\\error_reporting\\": "../../../source/modules/zunderweb/error_reporting"
+        }
+    }
+}
+
+
